@@ -1,0 +1,54 @@
+body {
+  background: url(hexabump_@2X.png) repeat;
+  font-family: 'Cabin', Geneva, sans-serif;
+  color: #feb700;
+  margin: 0;
+  text-shadow: 1px 1px gray;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.text-thin {
+  font-weight: 400;
+}
+
+.links {
+  font-size: 14px;
+  color: #ff4719;
+}
+
+a {
+  color: #6699ff;
+}
+
+a:hover {
+  color: #75ff47;
+}
+
+a:active {
+  color: #ff4719;
+}
+
+@media screen and (max-width: 380px) {
+  .title-super {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 381px) {
+  .title-super {
+    font-size: 48px;
+  }
+}
+
+
+img.my-picture {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
