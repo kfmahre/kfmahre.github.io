@@ -18,6 +18,11 @@ body {
   color: #ff4719;
 }
 
+ul
+{
+  list-style-type: none;
+}
+
 a {
   color: #6699ff;
 }
