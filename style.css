@@ -1,11 +1,11 @@
 body {
-  background-color:#006;
-  background-image: linear-gradient(30deg, #005 12%, transparent 12.5%, transparent 87%, #005 87.5%, #005),
-  linear-gradient(150deg, #005 12%, transparent 12.5%, transparent 87%, #005 87.5%, #005),
-  linear-gradient(30deg, #005 12%, transparent 12.5%, transparent 87%, #005 87.5%, #005),
-  linear-gradient(150deg, #005 12%, transparent 12.5%, transparent 87%, #005 87.5%, #005),
-  linear-gradient(60deg, #008 25%, transparent 25.5%, transparent 75%, #008 75%, #008),
-  linear-gradient(60deg, #008 25%, transparent 25.5%, transparent 75%, #008 75%, #008);
+  background-color:#025;
+  background-image: linear-gradient(30deg, #024 12%, transparent 12.5%, transparent 87%, #024 87.5%, #024),
+  linear-gradient(150deg, #024 12%, transparent 12.5%, transparent 87%, #024 87.5%, #024),
+  linear-gradient(30deg, #024 12%, transparent 12.5%, transparent 87%, #024 87.5%, #024),
+  linear-gradient(150deg, #024 12%, transparent 12.5%, transparent 87%, #024 87.5%, #024),
+  linear-gradient(60deg, #036 25%, transparent 25.5%, transparent 75%, #036 75%, #036),
+  linear-gradient(60deg, #036 25%, transparent 25.5%, transparent 75%, #036 75%, #036);
   background-size:80px 140px;
   background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   font-family: 'Cabin', Geneva, sans-serif;
