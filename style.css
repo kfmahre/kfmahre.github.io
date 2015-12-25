@@ -11,25 +11,25 @@ html {
 }
 
 body {
-  background: linear-gradient(silver, black);
-  font-family: 'Cabin', Geneva, sans-serif;
+  background-color: #e6e6e6;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
-  color: #ffd700;
-  text-shadow: 1px 1px #696969;
+  color: #333333;
+  text-shadow: 1px 1px #a6a6a6;
 }
 
 img.my-picture {
   display: block;
   margin: 0 auto 10px;
   max-width: 100%;
-  border: 3px solid white;
+  border: 3px solid #8c8c8c;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
 
 .text-thin {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .links {
@@ -66,8 +66,9 @@ img.my-picture {
 }
 
 .home:hover {
-  background-color: gold;
-  background-position: 0 -96px;
+  background-color: white;
+  background-position: 0 -94px;
+  border: 1px solid black;
 }
 
 .github {
@@ -79,25 +80,28 @@ img.my-picture {
 
 .github:hover {
   background-color: #4d79ff;
-  background-position: 0 -96px;
+  background-position: 0 -94px;
+  border: 1px solid black;
 }
 
-.icon.linkedin {
+.linkedin {
   background: url("linkedin.svg");
   background-image: url("linkedin.svg"), none;
   background-size: 100%;
   background-position: 0 0;
 }
 
-.icon.linkedin:hover {
-  background-color: dark-grey;
-  background-position: 0 -96px;
+.linkedin:hover {
+  background-color: #4dc4ff;
+  background-position: 0 -94px;
+  border: 1px solid black;
 }
 
 ul {
   list-style-type: none;
 }
 
+/*
 a {
   color: #00bfff;
 }
@@ -108,6 +112,13 @@ a:hover {
 
 a:active {
   color: #ff4719;
+}
+*/
+
+footer {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 380px) {
