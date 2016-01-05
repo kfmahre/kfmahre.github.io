@@ -11,17 +11,17 @@ html {
 }
 
 body {
-  background-color: #e6e6e6;
+  background-color: #a6a6a6;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   color: #333333;
-  text-shadow: 1px 1px #a6a6a6;
+  text-shadow: 1px 1px #e6e6e6;
 }
 
 img.my-picture {
   display: block;
   margin: 0 auto 10px;
-  max-width: 100%;
+  max-width: 15em;
   border: 3px solid #8c8c8c;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -38,63 +38,54 @@ img.my-picture {
 
 .buttons {
     float: left;
-    margin-left: calc((100% - 300px) / 2);
+    margin-left: calc((100% - 210px) / 2);
 }
 
 .icon {
   display: inline-block;
   vertical-align: top;
   overflow: hidden;
-  margin: 4px;
-  width: 96px;
-  height: 96px;
+  margin: 5px 5px 0px 5px;
+  width: 60px;
+  height: 60px;
   font-size: 0;
   text-indent: -9999px;
-}
-
-.icon-mono {
   background-color: #595959;
-  -webkit-transition: background 0.3s;
-          transition: background 0.3s;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
 }
 
 .home {
-  background: url("home.svg");
-  background-image: url("home.svg"), none;
+  background: url("home2.svg");
+  background-image: url("home2.svg"), none;
   background-size: 100%;
   background-position: 0 0;
 }
 
 .home:hover {
-  background-color: white;
-  background-position: 0 -94px;
-  border: 1px solid black;
+  background-position: 0 -60px;
 }
 
 .github {
-  background: url("github.svg");
-  background-image: url("github.svg"), none;
+  background: url("github2.svg");
+  background-image: url("github2.svg"), none;
   background-size: 100%;
   background-position: 0 0;
 }
 
 .github:hover {
-  background-color: #4d79ff;
-  background-position: 0 -94px;
-  border: 1px solid black;
+  background-position: 0 -60px;
 }
 
 .linkedin {
-  background: url("linkedin.svg");
-  background-image: url("linkedin.svg"), none;
+  background: url("linkedin2.svg");
+  background-image: url("linkedin2.svg"), none;
   background-size: 100%;
   background-position: 0 0;
 }
 
 .linkedin:hover {
-  background-color: #4dc4ff;
-  background-position: 0 -94px;
-  border: 1px solid black;
+  background-position: 0 -60px;
 }
 
 ul {
