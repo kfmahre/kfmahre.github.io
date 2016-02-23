@@ -18,10 +18,18 @@ body {
   background: url(darkgraph.png), repeat;
 }
 
+header {
+  background-color: #555555;
+  padding: 0 0 5px 0;
+  margin: 0;
+  border-bottom: 1.5px dashed #eaa13c;
+}
+
 hr {
   width: 100%;
   border: 1px dashed #eaa13c;
   color: #eaa13c;
+  margin: 0px auto 0px auto;
 }
 
 img.my-picture {
@@ -133,7 +141,9 @@ footer {
 }
 
 .credits {
+  color: #3677d2;
   font-size: 12px;
+  text-shadow: none;
 }
 
 @media screen and (max-width: 380px) {
