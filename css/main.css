@@ -1,5 +1,5 @@
 body {
-  margin: 20px auto;
+  margin: 50px auto;
   width: 80%;
   font-family: 'Lato', sans-serif;
   background: #b3cde0;
@@ -10,7 +10,7 @@ a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #03396c; }
 
-h1, h2, h3, h4 { font-family: 'Work Sans', sans-serif; color: #011f4b; text-shadow: 1px 1px 5px #6497b1;}
+h1, h2, h3, h4 { font-family: 'Work Sans', sans-serif; color: #011f4b; text-shadow: 1px 1px 5px #6497b1; font-weight: 700;}
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
@@ -70,4 +70,8 @@ img.my-picture {
 img.my-picture:hover {
   opacity: 1;
   filter: alpha(opacity=100);
+}
+
+.left-marg {
+  margin-left: 10%;
 }
