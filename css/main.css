@@ -75,3 +75,7 @@ img.my-picture:hover {
 .left-marg {
   margin-left: 10%;
 }
+
+.size-me {
+  height: 3em;
+}
