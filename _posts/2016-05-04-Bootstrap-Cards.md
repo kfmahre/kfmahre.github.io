@@ -4,15 +4,15 @@ title: "Bootstrap 4 Cards"
 date: 2016-05-04
 ---
 
-###Cards###
+###Cards
 
-***
+---
 
 I've put together some cards using bootstrap 4 that link to my projects on github. The [documentation](http://v4-alpha.getbootstrap.com/components/card/) was really easy to get through and with some little CSS translate effects they move really nicely on hover.
 
 Each card has html like the following example:
 
-*HTML:
+####HTML:
 
 ```
     <div class="card card-block projectCard">
@@ -28,12 +28,17 @@ Each card has html like the following example:
 ```
 
 If you're going to try this remember as per the documentation to wrap the cards in a:
+
 ```
 <div class="card-columns text-xs-center">
 ```
+
 followed by a closing div tag, of course.
 
-*CSS:
+---
+
+####CSS:
+
 ```
 .card-text {
   font-size: .9em;
@@ -59,6 +64,6 @@ followed by a closing div tag, of course.
 }
 ```
 
-Adding those styles in made it so the cards will "pop" out a bit when they are hovered over.
+Adding those styles in made it so the cards will *pop* out a bit when they are hovered over.
 
 Looks nice, and it was fun to figure out!
