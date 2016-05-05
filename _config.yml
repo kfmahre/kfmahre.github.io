@@ -1,4 +1,4 @@
 name: Kyle Mahre
-markdown: kramdown
+markdown: redcarpet
 input: GFM
 permalink: /blog/:year/:month/:day/:title
