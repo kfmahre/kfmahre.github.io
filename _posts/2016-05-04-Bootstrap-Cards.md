@@ -13,7 +13,7 @@ I've put together some cards using bootstrap 4 that link to my projects on githu
 Each card has html like the following example:
 
 ### HTML:
-
+<div class="well">
 ``` HTML
     <div class="card card-block projectCard">
       <h4 class="card-title text-thin">Responsive Portfilio</h4>
@@ -26,19 +26,21 @@ Each card has html like the following example:
       </footer>
     </div>
 ```
+</div>
 
 If you're going to try this remember as per the documentation to wrap the cards in a:
-
+<div class="well">
 ``` HTML
 <div class="card-columns text-xs-center">
 ```
-
+</div>
 followed by a closing div tag, of course.
 
 ---
 
 ## CSS:
 
+<div class="well">
 ``` CSS
 .card-text {
   font-size: .9em;
@@ -63,7 +65,7 @@ followed by a closing div tag, of course.
   box-shadow: 2px 2px 4px #81969A;
 }
 ```
-
+</div>
 Adding those styles in made it so the cards will *pop* out a bit when they are hovered over.
 
 Looks nice, and it was fun to figure out!
