@@ -4,7 +4,7 @@ title: "Bootstrap 4 Cards"
 date: 2016-05-04
 ---
 
-## Cards
+### Cards
 
 ---
 
@@ -12,7 +12,7 @@ I've put together some cards using bootstrap 4 that link to my projects on githu
 
 Each card has html like the following example:
 
-## HTML:
+### HTML:
 
 ``` HTML
     <div class="card card-block projectCard">
