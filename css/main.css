@@ -62,6 +62,10 @@ ul.posts li { list-style: none; }
   color: #E0E2E4;
 }
 
+hr {
+  border:1px solid #81969A;
+}
+
 /* CV */
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }
