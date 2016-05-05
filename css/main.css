@@ -37,6 +37,21 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
   font-size: 1em;
 }
 
+.blurb {
+  z-index: 1;
+}
+
+.projectCard {
+  margin: 3px;
+  z-index: 3;
+  transform-style: preserve-3d;
+}
+
+.projectCard:hover {
+  transform: translate(-2px,-2px);
+  box-shadow: 2px 2px 4px #81969A;
+}
+
 footer { border-top: 1px solid #81969A; font-size: .8em; margin-top: 1.9em;}
 
 /* Blog */
@@ -77,8 +92,8 @@ img.my-picture {
 }
 
 .btn-primary-outline:hover {
-  color: #8CBBAD;
-  background: #000000;
+  color: #E0E2E4;
+  background: transparent;
   border: 1px solid #8CBBAD;
 }
 
