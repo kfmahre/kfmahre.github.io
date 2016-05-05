@@ -4,7 +4,7 @@ title: "Bootstrap 4 Cards"
 date: 2016-05-04
 ---
 
-###Cards
+###Cards###
 
 ***
 
@@ -13,7 +13,8 @@ I've put together some cards using bootstrap 4 that link to my projects on githu
 Each card has html like the following example:
 
 *HTML:
-```html
+
+```
     <div class="card card-block projectCard">
       <h4 class="card-title text-thin">Responsive Portfilio</h4>
       <p class="card-text">Portfolio developed for responsiveness & mobile first design.<br>Features a JavaScript parallax background effect & responsive Slick carousel.<br>Technologies used: Bootstrap, CSS3, Slick</p>
@@ -27,13 +28,13 @@ Each card has html like the following example:
 ```
 
 If you're going to try this remember as per the documentation to wrap the cards in a:
-```html
+```
 <div class="card-columns text-xs-center">
 ```
 followed by a closing div tag, of course.
 
 *CSS:
-```css
+```
 .card-text {
   font-size: .9em;
 }
