@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "Kyle Mahre, Chief Jarvis, Launches Site"
-date: 2016-04-27
+title: "Bootstrap 4 Cards"
+date: 2016-05-04
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+##Cards
+
+I've put together some cards using bootstrap 4 that link to my projects on github. The [documentation](http://v4-alpha.getbootstrap.com/components/card/) was really easy to get through and with a little css translate effects they move really nicely on hover:
+
