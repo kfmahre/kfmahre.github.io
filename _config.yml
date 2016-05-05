@@ -1,3 +1,3 @@
 name: Kyle Mahre
-markdown: kramdown
+markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
