@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Bootstrap 4 Cards"
-date: 2016-05-04
+title: "First post! Starting to blog with Jekyll"
+date: 2016-04-27
 ---
 
-##Cards
+##Jekyll
 
-I've put together some cards using bootstrap 4 that link to my projects on github. The [documentation](http://v4-alpha.getbootstrap.com/components/card/) was really easy to get through and with a little css translate effects they move really nicely on hover:
+This is my first blog post here, obviously. I've tried using Wordpress and it's very easy to use, but with Github's free hosting, the unlimited ability for customization, I don't see the advantage of using wordpress for anything, but especially not a professional web development blog; which is what I aim to make this blog about.
+
+
 
