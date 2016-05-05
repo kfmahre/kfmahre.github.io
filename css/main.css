@@ -2,24 +2,42 @@ body {
   margin: 7% auto;
   width: 80%;
   font-family: 'Lato', sans-serif;
-  background: #b3cde0;
+  background: #232c31;
+  color: #E0E2E4;
 }
 
-a { text-decoration: none; color: #005b96; }
-a:hover { text-decoration: underline; }
+a { text-decoration: none; color: #678cb1; }
+a:hover { text-decoration: underline; color: #678cb1; }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #03396c; }
+p, ul { font-size: 1.5em; line-height: 1.4em; color: #E0E2E4; }
 
-h1, h2, h3, h4 { font-family: 'Work Sans', sans-serif; color: #011f4b; text-shadow: 1px 1px 5px #6497b1; font-weight: 700;}
+h1, h2, h3, h4 { font-family: 'Work Sans', sans-serif; color: #8CBBAD; font-weight: 700;}
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Lato', sans-serif; padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-size: 1em; font-family: 'Lato', sans-serif; padding: 0px; list-style: none; font-weight: bold;}
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
-footer { border-top: 1px solid #6497b1; font-size: .8em; }
+.navbar {
+  background: #3f4b4e;
+  border-bottom: 1px solid #81969A;
+}
+
+.card {
+  background: #3f4b4e;
+}
+
+.card-text {
+  font-size: .9em;
+}
+
+.card-link {
+  font-size: 1em;
+}
+
+footer { border-top: 1px solid #81969A; font-size: .8em; margin-top: 1.9em;}
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
@@ -33,15 +51,6 @@ ul.posts li { list-style: none; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
-ul.projects {
-  margin: 20px auto 40px;
-  font-size: .8em;
-}
-
-ul.projects li {
-  list-style: none;
-}
-
 .text-thin {
   font-weight: 300;
 }
@@ -51,20 +60,32 @@ ul.projects li {
   max-height: 20em;
 }
 
-a.project-link {
-  font-size: 1.9em;
-}
-
 img.my-picture {
   display: inline-block;
   max-width: 15em;
   margin: 1em 0 1em 1em;
-  border: 1px solid #6497b1;
   opacity: 0.8;
   filter: alpha(opacity=80);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+}
+
+.btn-primary-outline {
+  color: #8CBBAD;
+  border: 1px solid #8CBBAD;
+}
+
+.btn-primary-outline:hover {
+  color: #8CBBAD;
+  background: #000000;
+  border: 1px solid #8CBBAD;
+}
+
+.btn-primary-outline:active {
+  color: #8CBBAD;
+  background: #ffffff;
+  border: 1px solid #8CBBAD;
 }
 
 img.my-picture:hover {
