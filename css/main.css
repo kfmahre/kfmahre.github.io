@@ -57,9 +57,10 @@ footer { border-top: 1px solid #81969A; font-size: .8em; margin-top: 1.9em;}
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
-.posts {
+body.posts {
   font-size: 1em;
   color: #E0E2E4;
+  background: #E0E2E4;
 }
 
 hr {
