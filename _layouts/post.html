@@ -3,38 +3,34 @@ layout: default
 ---
 <style>
 
-body {
-  color: #E0E2E4;
-  background: #71898e;
+.post {
+  padding: 5px;
+  border: solid 5px rgba(0,0,0,0.2);
 }
 
 h1, h2, h3, h4 {
-  color: #232c31;
+  opacity: 0.75;
 }
 
-a { text-decoration: none; color: #3f4b4e; }
-a:hover { text-decoration: underline; color: #3f4b4e; }
-
-.navbar {
-  border-bottom: 1px solid #232c31;
-}
-
-footer {
-  border-top: 1px solid #232c31;
-}
+a { text-decoration: none; color: #FF5722;}
+a:hover { text-decoration: underline; color: #FBE9E7;}
 
 hr {
-  border:1px solid #3f4b4e;
+  color: #424242;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  border: solid 5px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 4px #212121;
 }
 
 p {
-  text-shadow: 1px 1px 1px #3f4b4e;
+
 }
 
 </style>
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<div class="post bg-grey-rl">
   {{ content }}
 </div>
