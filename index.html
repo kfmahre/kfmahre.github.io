@@ -2,7 +2,7 @@
 layout: default
 title: Kyle Mahre, Web Developer
 ---
-
+  <div>
     <div class="container my-pictureDiv">
       <img class="my-picture img-responsive" src="old500X.jpg" alt="my picture">
     </div>
@@ -16,77 +16,26 @@ title: Kyle Mahre, Web Developer
     <div class="blurb">
       <h2>Projects:</h2>
       <p class="text-thin">Here are some of the projects I've worked on and built:</p>
-
-      <div class="card-columns text-xs-center">
-
-        <div class="card card-block projectCard bg-grey-dk">
-          <h4 class="card-title text-thin">Responsive Portfilio</h4>
-          <p class="card-text">Portfolio developed for responsiveness & mobile first design.<br>Features a JavaScript parallax background effect & responsive Slick carousel.<br>Technologies used: Bootstrap, CSS3, Slick</p>
-          <a href="http://kfmahre.github.io/Portfolio/" type="button" class="card-link btn btn-primary-outline">Live Version</a>
-          <footer>
-          <small class="text-muted">
-          <a href="https://github.com/kfmahre/Portfolio" class="card-link text-thin">https://github.com/kfmahre/Portfolio</a>
-          </small>
-          </footer>
+      <div class="container">
+        <div class="card-columns text-xs-center" ng-controller="CardController as cards">
+          <div class="card projectCard bg-grey-dk" ng-repeat="project in cards.projects">
+            <div>
+              <img class="card-img-top fit" ng-src="[[project.projectImg]]" alt="Card image cap"/>
+              <div class="card-block">
+                <h4 class="card-title text-thin">[[project.name]]</h4>
+                <p class="card-text">[[project.description]]</p>
+                <a ng-href="[[project.projectUrl]]" type="button" class="card-link btn btn-primary-outline" target="_self">Look</a>
+              </div>
+              <footer>
+                <small class="text-muted">
+                <a href="[[project.gitUrl]]" class="card-link text-thin" ng-bind="project.gitUrl" target="_self"></a>
+                </small>
+              </footer>
+            </div>
+          </div>
         </div>
-
-        <div class="card card-block projectCard bg-grey-dk">
-          <h4 class="card-title text-thin">Interactive Resume</h4>
-          <p class="card-text">Demonstrates jQuery and JSON mastery<br>Features a CSS3 parallax background effect & Slick project carousel <br> Technologies used: jQuery, HTML & CSS, JavaScript</p>
-          <a href="http://kfmahre.github.io/Resume/" type="button" class="card-link btn btn-primary-outline">Live Version</a>
-          <footer>
-          <small class="text-muted">
-          <a href="https://github.com/kfmahre/Resume" class="card-link text-thin">https://github.com/kfmahre/Resume</a>
-          </small>
-          </footer>
-        </div>
-
-        <div class="card card-block projectCard bg-grey-dk">
-          <h4 class="card-title text-thin">Classic Arcade Game Clone</h4>
-          <p class="card-text">Frogger style game clone <br> Technologies used: JavaScript, HTML5 Canvas</p>
-          <a href="http://kfmahre.github.io/arcade-game/" type="button" class="card-link btn btn-primary-outline">Live Version</a>
-          <footer>
-          <small class="text-muted">
-          <a href="https://github.com/kfmahre/arcade-game" class="card-link text-thin">https://github.com/kfmahre/arcade-game</a>
-          </small>
-          </footer>
-        </div>
-
-        <div class="card card-block projectCard bg-grey-dk">
-          <h4 class="card-title text-thin">Performance Optimization Project</h4>
-          <p class="card-text">Improved PageSpeed score of an existing website from x to above 90 on
-both mobile and desktop. (Steps documented on github) <br>Optimized JavaScript for a smooth 60fps on scroll. <br>Technologies used: Gulp, Ngrok, and Chrome developer tools</p>
-          <a href="http://kfmahre.github.io/udportfolio" type="button" class="card-link btn btn-primary-outline">Live Version</a>
-          <footer>
-          <small class="text-muted">
-          <a href="https://github.com/kfmahre/udportfolio" class="card-link text-thin">https://github.com/kfmahre/udportfolio</a>
-          </small>
-          </footer>
-        </div>
-
-        <div class="card card-block projectCard bg-grey-dk">
-          <h4 class="card-title text-thin">Cat-Clicker Web-App</h4>
-          <p class="card-text">This was a fun little project I used to learn how to seperate the model and view of a simple web-app. It turned into something not-so-simple.</p>
-          <a href="http://kfmahre.github.io/Cat-Clicker/" type="button" class="card-link btn btn-primary-outline">Live Version</a>
-          <footer>
-          <small class="text-muted">
-          <a href="http://kfmahre.github.io/Cat-Clicker/" class="card-link text-thin">http://kfmahre.github.io/Cat-Clicker/</a>
-          </small>
-          </footer>
-        </div>
-
-        <div class="card card-block projectCard bg-grey-dk">
-          <h4 class="card-title text-thin">Neighborhood-Map</h4>
-          <p class="card-text">Search field filters a list-view & Google map markers. <br> Wikipedia & wUnderground Ajax <br> Technologies used: Knockout.js, AJAX, Bootstrao, JavaScript, HTML & CSS</p>
-          <a href="http://kfmahre.github.io/Neighborhood-Map/" type="button" class="card-link btn btn-primary-outline">Live Version</a>
-          <footer>
-          <small class="text-muted">
-          <a href="https://github.com/kfmahre/Neighborhood-Map" class="card-link text-thin">https://github.com/kfmahre/Neighborhood-Map</a>
-          </small>
-          </footer>
-        </div>
-
       </div>
+    </div>
 
-      </div>
+  </div>
 

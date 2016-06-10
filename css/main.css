@@ -1,3 +1,5 @@
+/*$breakpoints: $grid-breakpoints;*/
+
 body {
   margin: 7% auto;
   width: 80%;
@@ -17,7 +19,7 @@ h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
 nav ul, footer ul { font-size: 1em; font-family: 'Lato', sans-serif; padding: 0px; list-style: none; font-weight: bold;}
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
+nav ul li, footer ul li { display: inline; margin-right: 20px;}
 
 .navbar {
   opacity: 0.95;
@@ -26,12 +28,20 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
   box-shadow: 3px 3px 6px #212121;
 }
 
+.nav-item {
+  margin-right: 5px;
+}
+
 .card {
-  border-radius: 0;
   border: solid 5px rgba(0,0,0,0.2);
 }
 
+.fit {
+  max-width: 100%;
+}
+
 .card-text {
+  z-index: 4;
   font-size: .9em;
 }
 
@@ -206,3 +216,4 @@ img.my-picture:hover {
   background-color: #FBE9E7;
   color: #000000;
 }
+
