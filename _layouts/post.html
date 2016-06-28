@@ -1,36 +1,11 @@
 ---
 layout: default
 ---
-<style>
-
-.post {
-  padding: 5px;
-  border: solid 5px rgba(0,0,0,0.2);
-}
-
-h1, h2, h3, h4 {
-  opacity: 0.75;
-}
-
-a { text-decoration: none; color: #FF5722;}
-a:hover { text-decoration: underline; color: #FBE9E7;}
-
-hr {
-  color: #424242;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-  border: solid 5px rgba(0,0,0,0.2);
-  box-shadow: 2px 2px 4px #212121;
-}
-
-p {
-
-}
-
-</style>
+<div class="post-margin-top">
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post bg-grey-rl">
+<div class="post">
   {{ content }}
+</div>
 </div>

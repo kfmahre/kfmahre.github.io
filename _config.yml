@@ -2,3 +2,7 @@ name: Kyle Mahre
 markdown: kramdown
 input: GFM
 permalink: /blog/:year/:month/:day/:title
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
