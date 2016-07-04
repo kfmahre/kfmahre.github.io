@@ -11,7 +11,7 @@
       projectUrl: "http://kfmahre.github.io/Resume/",
       projectImg: "http://placehold.it/350x150",
       gitUrl: "https://github.com/kfmahre/Resume/",
-      description:"Demonstrates jQuery and JSON mastery<br>Features a CSS3 parallax background effect & Slick project carousel <br> Technologies used: jQuery, HTML & CSS, JavaScript"
+      description:"Demonstrates jQuery and JSON mastery - Features a CSS3 parallax background effect & Slick project carousel - Technologies used: jQuery, HTML & CSS, JavaScript"
     },
    {
       name: "Classic Arcade Game Clone",
@@ -25,7 +25,7 @@
       projectUrl: "https://github.com/kfmahre/udportfolio/",
       projectImg: "http://placehold.it/350x150",
       gitUrl: "https://github.com/kfmahre/udportfolio/",
-      description:"Improved PageSpeed score of an existing website from x to above 90 on both mobile and desktop. (Steps documented on github) <br>Optimized JavaScript for a smooth 60fps on scroll. <br>Technologies used: Gulp, Ngrok, and Chrome developer tools"
+      description:"Improved PageSpeed score of an existing website from x to above 90 on both mobile and desktop. (Steps documented on github) - Optimized JavaScript for a smooth 60fps on scroll. Technologies used: Gulp, Ngrok, and Chrome developer tools"
     },
     {
       name: "Cat-Clicker Web-App",
@@ -39,7 +39,7 @@
       projectUrl: "http://kfmahre.github.io/Neighborhood-Map/",
       projectImg: "http://placehold.it/350x150",
       gitUrl: "https://github.com/kfmahre/Neighborhood-Map/",
-      description:"Search field filters a list-view & Google map markers. <br> Wikipedia & wUnderground Ajax <br> Technologies used: Knockout.js, AJAX, Bootstrap, JavaScript, HTML & CSS"
+      description:"Search field filters a list-view & Google map markers. Wikipedia & wUnderground Ajax - Technologies used: Knockout.js, AJAX, Bootstrap, JavaScript, HTML & CSS"
     },
     {
       name: "Angular.js Gem-Store",
