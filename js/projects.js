@@ -18,7 +18,7 @@
       projectUrl: "https://github.com/kfmahre/arcade-game/",
       projectImg: "http://placehold.it/350x150",
       gitUrl: "https://github.com/kfmahre/arcade-game/",
-      description:"Frogger style game clone <br> Technologies used: JavaScript, HTML5 Canvas"
+      description:"Frogger style game clone - Technologies used: JavaScript, HTML5 Canvas"
     },
     {
       name: "Website Performance Optimization",
