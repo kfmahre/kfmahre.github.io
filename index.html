@@ -18,8 +18,8 @@ title: Kyle Mahre, Web Developer
       <p class="text-thin">Examples of some of my projects:</p>
       <div id="project-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox" ng-controller="CardController as cards">
-          <div class="carousel-item" ng-repeat="project in cards.projects">
-            <div>
+          <div ng-repeat="project in cards.projects">
+            <div class="carousel-item">
               <img class="card-img-top fit" ng-src="[[project.projectImg]]" alt="Card image cap"/>
               <div class="card-block">
                 <h4 class="card-title text-thin">[[project.name]]</h4>
