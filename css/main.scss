@@ -208,10 +208,10 @@ nav ul li, footer ul li {
 }
 
 footer {
-  background: linear-gradient(to bottom right, $grey-700, $grey-300); /* Standard syntax */
-  -webkit-background: -webkit-linear-gradient(left top, $grey-700, $grey-300); /* For Safari 5.1 to 6.0 */
-  -o-background: -o-linear-gradient(bottom right, $grey-700, $grey-300); /* For Opera 11.1 to 12.0 */
-  -moz-background: -moz-linear-gradient(bottom right, $grey-700, $grey-300); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $grey-500, $grey-100); /* Standard syntax */
+  -webkit-background: -webkit-linear-gradient(left top, $grey-500, $grey-100); /* For Safari 5.1 to 6.0 */
+  -o-background: -o-linear-gradient(bottom right, $grey-500, $grey-100); /* For Opera 11.1 to 12.0 */
+  -moz-background: -moz-linear-gradient(bottom right, $grey-500, $grey-100); /* For Firefox 3.6 to 15 */
   font-size: .8em;
   margin-top: 1em;
   padding: 15px;
@@ -286,21 +286,21 @@ img.my-picture:hover {
 }
 
 .btn-primary-outline {
-  color: #ffffff;
+  color: $white;
   border-color: $accent-400;
-  background-color: $primary-900;
+  background-color: $black;
   border-radius: 0px;
 }
 
 .btn-primary-outline:hover {
-  color: #000000;
+  color: $black;
   border-color: $primary-900;
   background: $accent-400;
   transition: all linear 0.1s;
 }
 
 .btn-primary-outline:active {
-  color: #ffffff;
+  color: $white;
   border-color: $accent-400;
   background: transparent;
 }
@@ -334,8 +334,8 @@ img.my-picture:hover {
   opacity: 0.75;
   }
 
-  a { text-decoration: none; color: #FF5722;}
-  a:hover { text-decoration: underline; color: #FBE9E7;}
+  a { text-decoration: none; color: $accent-700;}
+  a:hover { text-decoration: underline; color: $accent-400;}
 
   hr {
   color: $grey-800;
