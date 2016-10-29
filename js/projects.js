@@ -2,7 +2,7 @@
     {
       name: 'Responsive Portfolio',
       projectUrl: "http://kfmahre.github.io/Portfolio/",
-      projectImg: "../images/portfolio.jpg",
+      projectImg: "http://kfmahre.github.io/images/portfolio.jpg",
       gitUrl: "https://github.com/kfmahre/Portfolio/",
       description:"My simple, Responsive Portfolio"
     },
