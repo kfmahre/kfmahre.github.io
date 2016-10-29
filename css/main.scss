@@ -22,17 +22,17 @@ $grey-50: #fafafa;
 
 $white: #ffffff;
 
-$primary-900: #0D47A1;
+$primary-900: #FF6F00;
 
-$primary-700: #1976D2;
+$primary-700: #FFA000;
 
-$primary-500: #2196F3;
+$primary-500: #FFC107;
 
-$primary-300: #64B5F6;
+$primary-300: #FFD54F;
 
-$accent-700: #D50000;
+$accent-700: #DD2C00;
 
-$accent-400: #FF1744;
+$accent-400: #FF3D00;
 
 /** LESS MIX-INS **/
 @mixin box-shadow-inset($x:0, $y:0, $blur:10px, $color:rgba(0,0,0,0.5)){
