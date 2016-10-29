@@ -302,7 +302,7 @@ img.my-picture:hover {
 .btn-primary-outline:active {
   color: $white;
   border-color: $accent-400;
-  background: transparent;
+  background: $primary-900;
 }
 
 .ng-invalid.ng-dirty {
