@@ -208,10 +208,10 @@ nav ul li, footer ul li {
 }
 
 footer {
-  background: linear-gradient(to bottom right, $grey-500, $grey-100); /* Standard syntax */
-  -webkit-background: -webkit-linear-gradient(left top, $grey-500, $grey-100); /* For Safari 5.1 to 6.0 */
-  -o-background: -o-linear-gradient(bottom right, $grey-500, $grey-100); /* For Opera 11.1 to 12.0 */
-  -moz-background: -moz-linear-gradient(bottom right, $grey-500, $grey-100); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $grey-100, $grey-500); /* Standard syntax */
+  -webkit-background: -webkit-linear-gradient(left top, $grey-100, $grey-500); /* For Safari 5.1 to 6.0 */
+  -o-background: -o-linear-gradient(bottom right, $grey-100, $grey-500); /* For Opera 11.1 to 12.0 */
+  -moz-background: -moz-linear-gradient(bottom right, $grey-100, $grey-500); /* For Firefox 3.6 to 15 */
   font-size: .8em;
   margin-top: 1em;
   padding: 15px;
@@ -287,8 +287,8 @@ img.my-picture:hover {
 
 .btn-primary-outline {
   color: $white;
-  border-color: $accent-400;
-  background-color: $black;
+  border-color: $black;
+  background-color: $accent-700;
   border-radius: 0px;
 }
 
