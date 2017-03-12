@@ -264,14 +264,15 @@ hr {
   @include box-shadow(1px,5px,10px,rgba(0,0,0,0.4));
 }
 
-
-img.my-picture {
-  border: solid 3px $primary-500;
+.my-picture {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+img.my-picture {
+  border: solid 3px $primary-500;
   max-height: 10em;
-  margin: 1em 0 1em 1em;
   opacity: 0.9;
   filter: alpha(opacity=90);
   -webkit-border-radius: 50%;
