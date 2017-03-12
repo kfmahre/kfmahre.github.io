@@ -256,7 +256,7 @@ hr {
   max-height: 15em;
   background-image: url(http://kfmahre.github.io/mirror.jpg);
   background-origin: content-box;
-  background-size: 100% auto;
+  background-size: cover;
   padding: 5px;
   margin: 0 0 10px 0;
   @include box-shadow(1px,5px,10px,rgba(0,0,0,0.4));
