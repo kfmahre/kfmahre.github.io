@@ -254,7 +254,7 @@ hr {
 .my-pictureDiv {
   width: 100%;
   max-height: 15em;
-  background: url(http://kfmahre.github.io/mirror.jpg) center center content-box;
+  background: url(http://kfmahre.github.io/mirror.jpg) center center border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -267,7 +267,9 @@ hr {
 
 img.my-picture {
   border: solid 3px $primary-500;
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   max-height: 10em;
   margin: 1em 0 1em 1em;
   opacity: 0.9;
