@@ -254,9 +254,7 @@ hr {
 .my-pictureDiv {
   width: 100%;
   max-height: 15em;
-  z-index: 1;
   background-image: url('mirror.jpg');
-  background-position: center;
   padding: 5px;
   margin: 0 0 10px 0;
   @include box-shadow(1px,5px,10px,rgba(0,0,0,0.4));
@@ -268,8 +266,8 @@ img.my-picture {
   display: inline-block;
   max-height: 10em;
   margin: 1em 0 1em 1em;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 0.9;
+  filter: alpha(opacity=90);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
