@@ -265,8 +265,6 @@ hr {
   background-size: cover;
   padding: 5px;
   margin: 0 0 10px 0;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
   @include box-shadow(1px,5px,10px,rgba(0,0,0,0.4));
 }
 
