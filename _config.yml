@@ -1,8 +1,10 @@
-name: Kyle Mahre
+permalink: /posts/:title
 markdown: kramdown
-input: GFM
-permalink: /blog/:year/:month/:day/:title
-exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
+
+gems:
+  - jekyll-sitemap
+
+name: Kyle Mahre
+url: https://kfmahre.github.io
+description: A fantastic blog that is fantastic.
+twitter: kfmahre
