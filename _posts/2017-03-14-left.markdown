@@ -8,9 +8,6 @@ This is my new professional web dev blog. I'll be revamping my personal projects
 
 ---
 
-You'll want to [get the code][left] and read the README to learn how to
-install and set up Left for your own purposes.
-
 If you have any questions, follow and ping me on Twitter- I'm
 [@kfmahre][twitter].
 
