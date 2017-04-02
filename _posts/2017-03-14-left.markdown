@@ -2,6 +2,7 @@
 layout: post
 title: New Blog
 category: posts
+url: 1
 ---
 
 This is my new professional web dev blog. I'll be revamping my personal projects, and discussing all things web and career development here as well. I'm looking forward to bringing more stuff to life.
