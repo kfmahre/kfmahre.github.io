@@ -57,13 +57,11 @@ a {
       margin-right: 6px;
     }
   }
-  .sections {
-    margin-left: 15px;
+  .buttons {
+    margin: 15px 0 0 0;
     a {
       padding: 3px 0;
       color: black;
-      font-weight: bold;
-      font-size: 12px;
       display: block;
       &:hover {
         color: #227ce8;
