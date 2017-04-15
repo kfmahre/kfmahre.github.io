@@ -4,13 +4,22 @@ var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var concat = require('gulp-concat');
 
-var cssFiles = 'css/*.scss';
+var cssFileBase = 'css/base.scss';
+var cssFileMobile = 'css/mobile.scss';
 
 gulp.task('sass', function(){
-  gulp.src(cssFiles)
+  gulp.src(cssFileBase)
     .pipe(sass().on('error', sass.logError))
     .pipe(minifyCss())
-    .pipe(concat('*.css'))
+    .pipe(concat('base.css'))
+    .pipe(gulp.dest('css/'));
+});
+
+gulp.task('sass', function(){
+  gulp.src(cssFileMobile)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(minifyCss())
+    .pipe(concat('mobile.css'))
     .pipe(gulp.dest('css/'));
 });
 
