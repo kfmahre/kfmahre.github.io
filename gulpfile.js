@@ -15,14 +15,6 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('css/'));
 });
 
-gulp.task('sass', function(){
-  gulp.src(cssFileMobile)
-    .pipe(sass().on('error', sass.logError))
-    .pipe(minifyCss())
-    .pipe(concat('mobile.css'))
-    .pipe(gulp.dest('css/'));
-});
-
 gulp.task('watch', function(){
   gulp.watch('kfmahre.github.io/css/*.scss', ['sass']);
 })
