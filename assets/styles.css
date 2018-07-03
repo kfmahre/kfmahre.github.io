@@ -58,7 +58,7 @@ hr{
  */
 .page-heading, .post-title{text-transform: uppercase;}
 
-article img {max-width: 50%;}
+li.post img{max-width: 50%;}
 
 /**
  * Text Rendering
