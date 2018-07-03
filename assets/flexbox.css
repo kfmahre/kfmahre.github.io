@@ -1,0 +1,255 @@
+.container{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 2rem;
+	margin-top: 15px;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	text-align: justify;
+}
+
+.row{
+	width: 100%;
+	max-width: 100%;
+	padding: 0 0px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	-webkit-box-flex: 0;
+	flex: 0 0 auto;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.col{
+	width: 100%;
+	max-width: 100%;
+	padding: 0 10px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	-webkit-box-flex: 0;
+	flex: 0 0 auto;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.row.reverse {
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	flex-direction: row-reverse;
+}
+
+	.col.reverse {
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	flex-direction: column-reverse;
+}
+
+.cols {
+	box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: var(--half-gutter-width);
+    padding-left: var(--half-gutter-width);
+
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+[class*="col-"]{
+	margin: 0 auto;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	-webkit-box-flex: 0;
+	flex: 0 0 auto;
+	text-align: center;
+}
+
+.col-1{
+	width: 8.333%;
+	max-width: 8.333%;
+	-webkit-flex-basis: 8.333%;
+	flex-basis: 8.333%;
+}
+
+.col-2{
+	width: 16.667%;
+	max-width: 16.667%;
+	-webkit-flex-basis: 16.667%;
+	flex-basis: 16.667%;
+}
+
+.col-3{
+	width: 25%;
+	max-width: 25%;
+	-webkit-flex-basis: 25%;
+	flex-basis: 25%;
+}
+
+.col-4{
+	width: 33.333%;
+	max-width: 33.333%;
+	-webkit-flex-basis: 33.333%;
+	flex-basis: 33.333%;
+}
+
+.col-5{
+	width: 41.667%;
+	max-width: 41.667%;
+	-webkit-flex-basis: 41.667%;
+	flex-basis: 41.667%;
+}
+
+.col-6{
+	width: 50%;
+	max-width: 50%;
+	-webkit-flex-basis: 50%;
+	flex-basis: 50%;
+}
+
+.col-7{
+	width: 58.333
+	max-width: 58.333%;
+	-webkit-flex-basis: 58.333%;
+	flex-basis: 58.333%;
+}
+
+.col-8{
+	width: 66.667%;
+	max-width: 66.667%;
+	-webkit-flex-basis: 66.667%;
+	flex-basis: 66.667%;
+}
+
+.col-9{
+	width: 75%;
+	max-width: 75%;
+	-webkit-flex-basis: 75%;
+	flex-basis: 75%;
+}
+
+.col-10{
+	width: 83.333%;
+	max-width: 83.333%;
+	-webkit-flex-basis: 83.333%;
+	flex-basis: 83.333%;
+}
+
+.col-11{
+	width: 91.667%;
+	max-width: 91.667%;
+	-webkit-flex-basis: 91.667%;
+	flex-basis: 91.667%;
+}
+
+.col-12{
+	width: 100%;
+	max-width: 100%;
+	-webkit-flex-basis: 100%;
+	flex-basis: 100%;
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0rem;
+		margin-top: 15px;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+	}
+
+	[class*="col-"]{
+		margin: 0 auto;
+		-webkit-flex: 0 0 auto;
+		-ms-flex: 0 0 auto;
+		-webkit-box-flex: 0;
+		flex: 0 0 auto;
+		padding: 0 1em;
+		text-align: justify;
+		width: 100%;
+		max-width: 100%;
+		-webkit-flex-basis: 100%;
+		flex-basis: 100%;
+		position: relative;
+	}	
+}
+
+/* Tablet and desktop sizes*/
+@media screen and (min-width: 481px){
+
+}
+
+/* Tablet sizes */
+@media screen and (min-width: 481px) and (max-width: 1024px){
+	body{
+	}
+
+	.container{
+		width: 95%;
+		margin: 0 auto;
+		padding: 0 0rem;
+		margin-top: 15px;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+	}
+
+	.tablet-hidden, .phone-display, .desktop-display{
+		display: none!important;
+	}
+
+}
+
+/* Estilos para Desktops y largest screens */
+@media screen and (min-width: 1025px){
+	body{
+	}
+
+	.container{
+		width: 80%
+		margin: 0;
+		padding: 0 20px;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+	}
+
+	.desktop-hidden, .phone-display, .tablet-display{
+		display: none!important;
+	}
+}

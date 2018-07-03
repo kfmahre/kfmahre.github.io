@@ -1,10 +1,47 @@
-permalink: /posts/:title
-markdown: kramdown
+collections:
+    posts:
+        output: true
+        permalink: /:categories/:year/:title/
 
-gems:
-  - jekyll-sitemap
+permalink: /:categories/:title/
 
-name: Kyle Mahre
-url: https://kfmahre.github.io
-description: A fantastic blog that is fantastic.
-twitter: kfmahre
+title: Kyle Mahre
+email: kfmahre@gmail.com
+description: >
+    Developer and adventurer
+baseurl: ""
+url: "https://kfmahre.github.io"
+lang: en
+host: "localhost"
+port: 4000
+# Redes Sociales [Variables]
+twitter_username: kfmahre
+facebook_username: kfmahre
+github_username: kfmahre
+youtube_username: kfmahre
+
+theme: ultra-minimalista
+exclude:
+    - Gemfile
+    - Gemfile.lock
+
+
+
+
+# Definiendo Valores por Defecto
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "post"
+        title: "Kyle"
+        author: "Kyle Mahre"
+        excerpt_separator: <!--more-->
+-
+    scope:
+        path: "projects"
+        type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+        layout: "post" # overrides previous default layout
+        author: "Kyle Mahre"
