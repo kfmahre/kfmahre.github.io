@@ -11,8 +11,8 @@ Working on getting a client's website working and looking like a modern site sho
 ![alt text](/images/oldA&M.png)
 ![alt text](/images/updateA&M.png)
 
-[magicmarky.com](http://magicmarky.com)
+[magicmarky.com](https://magicmarky.com)
 
-[anmvideo.com](http://anmvideo.com)
+[anmvideo.com](https://anmvideo.com)
 
 ---
