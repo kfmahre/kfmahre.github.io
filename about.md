@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is Kyle Mahre's freelance web development and personal ultra-running blog. I'll also be posting about current events and other interesting stuff here too.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+![alt text](/images/kylestadium.jpg)
 
+[Portfolio](http://kfmahre.github.io/Portfolio/)
 
-[jekyll-organization]: https://github.com/jekyll
+---
