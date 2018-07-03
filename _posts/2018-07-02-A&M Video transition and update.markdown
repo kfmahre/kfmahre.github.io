@@ -8,7 +8,11 @@ url: 1
 
 Working on getting a client's website working and looking like a modern site should. It's obviously been a while since their site has had an update, but they have good content up on YouTube. Working on getting SEO optimized. These links should help with that, as external links to a website increase webcrawler visibilty.
 
-[magicmarky.com](magicmarky.com)
-[anmvideo.com](anmvideo.com)
+![alt text](oldA&M.png)
+![alt text](updatedA&M.png)
+
+[magicmarky.com](http://magicmarky.com)
+
+[anmvideo.com](http://anmvideo.com)
 
 ---
