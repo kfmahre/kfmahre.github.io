@@ -1,26 +1,11 @@
 <head>
-	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-
-	<!-- StyleSheets -->
-	<link href="/assets/flexbox.css" rel="stylesheet">
-	<link href="/assets/styles.css" rel="stylesheet">
-	<!-- Hazlo Responsive | Make it responsive -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- SEO -->
-	<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-	<!-- GoogleFonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
-	
-	<!-- JQuery 3.1.1 >
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script-->
-
-	<!-- Otra configuración | Other config -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-	<!-- Only Personal Setting
-	{% if jekyll.environment == 'production' and site.google_analytics %}
-		{% include google-analytics.html %}
-	{% endif %}-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
 </head>

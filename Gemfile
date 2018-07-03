@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll"
-gem "ultra-minimalista"
+source "https://rubygems.org"
+gemspec

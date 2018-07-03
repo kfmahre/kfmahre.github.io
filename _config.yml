@@ -1,47 +1,47 @@
-collections:
-    posts:
-        output: true
-        permalink: /:categories/:year/:title/
+title: Your awesome title
+author: GitHub User
+email: your-email@domain.com
+description: > # this means to ignore newlines until "twitter_username:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-permalink: /:categories/:title/
+# social links
+twitter_username: jekyllrb
+github_username:  jekyll
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
 
-title: Kyle Mahre
-email: kfmahre@gmail.com
-description: >
-    Developer and adventurer
-baseurl: ""
-url: "https://kfmahre.github.io"
-lang: en
-host: "localhost"
-port: 4000
-# Redes Sociales [Variables]
-twitter_username: kfmahre
-facebook_username: kfmahre
-github_username: kfmahre
-youtube_username: kfmahre
-
-theme: ultra-minimalista
-exclude:
-    - Gemfile
-    - Gemfile.lock
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
 
 
+show_excerpts: false # set to true to show excerpts on the homepage
 
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
 
-# Definiendo Valores por Defecto
-defaults:
--
-    scope:
-        path: ""
-    values:
-        layout: "post"
-        title: "Kyle"
-        author: "Kyle Mahre"
-        excerpt_separator: <!--more-->
--
-    scope:
-        path: "projects"
-        type: "pages" # previously `page` in Jekyll 2.2.
-    values:
-        layout: "post" # overrides previous default layout
-        author: "Kyle Mahre"
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
