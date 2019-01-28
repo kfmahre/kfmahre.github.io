@@ -6,7 +6,7 @@ permalink: /about/
 
 # About
 
-This is Kyle Mahre's freelance web development and personal ultra-running blog. I'll also be posting about current events and other interesting stuff here too.
+This is Kyle Mahre's freelance web development and business analytics blogfolio. That's me in the picture below!
 
 ![alt text](/images/kylestadium.jpg)
 
