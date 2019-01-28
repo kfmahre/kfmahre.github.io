@@ -10,6 +10,4 @@ This is Kyle Mahre's freelance web development and business analytics blogfolio.
 
 ![alt text](/images/kylestadium.jpg)
 
-[Portfolio](http://kfmahre.github.io/Portfolio/)
-
 ---
