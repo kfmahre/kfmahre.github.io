@@ -2,4 +2,7 @@
 
 This was a really fun freelance project with a great client to work with. A holistic health doctor in Chicago, Dr. Kevin Gill was the client.
 
-[rsx2.png](https://rsxhealth.com/)
+[RSX Health](https://rsxhealth.com/)
+
+![alt_text](/images/rsx2.png)
+
