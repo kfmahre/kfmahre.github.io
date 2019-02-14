@@ -2,7 +2,7 @@
 
 # Web Scraping
 
-![Graph](/images/graphpic1.png)
+![Graph](https://github.com/kfmahre/JSON_scraping/blob/master/json.png)
 
 We've moved on to web scraping in XML, HTML, and JSON.
 
