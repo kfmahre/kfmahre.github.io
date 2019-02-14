@@ -2,7 +2,7 @@
 
 # Web Scraping
 
-![json_scraping](https://github.com/kfmahre/JSON_scraping/blob/master/json.png)
+![json_scraping](/images/json.png)
 
 We've moved on to web scraping and here's and example of an assignment scraping JSON data.
 
